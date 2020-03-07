@@ -1,3 +1,16 @@
+# A proof-of-concept of flannel with SRv6 Backend
+This repository is a proof-of-concept of SRv6 Backend for flannel, not for production use.
+We modified a part of this code to publish, so there is no guarantee of working and also support.
+
+For more implementation details, please refer to our blog.
+
+## How to use
+- Build an image and push to a docker registry.
+- Change `kube-flannel.yml` to use `srv6` backend (`vxlan` -> `srv6`).
+- Deploy `flanneld` to your Kubernetes cluster, that its worker node is connected in the same subnet.
+
+---
+
 # flannel
 
 ![flannel Logo](logos/flannel-horizontal-color.png)
