@@ -198,7 +198,7 @@ imports:
   - jws
   - jwt
 - name: golang.org/x/sys
-  version: d5840adf789d732bc8b00f37b26ca956a7cc8e79
+  version: b44545bcd369ef9ff9bebcfebf5f3370ef9b1932
   subpackages:
   - unix
   - windows
