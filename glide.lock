@@ -37,6 +37,8 @@ imports:
   version: f4dd9f5a6b441265aefc1d44872a6f8c10f42b37
 - name: github.com/bronze1man/goStrongswanVici
   version: 4d72634a2f113aa48347dbc7dcb14adb806b6534
+- name: github.com/containernetworking/plugins
+  version: 47a9fd80c8258a288db0bb39f68516a4770012a4
 - name: github.com/coreos/etcd
   version: 960f4604bc821241b94906da5fe7f66306a77472
   subpackages:
