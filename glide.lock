@@ -170,7 +170,7 @@ imports:
   subpackages:
   - codec
 - name: github.com/vishvananda/netlink
-  version: fe3b5664d23a11b52ba59bece4ff29c52772a56b
+  version: 16769db0024183962b509594b3f9034118615c48
   subpackages:
   - nl
 - name: github.com/vishvananda/netns
