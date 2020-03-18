@@ -2,7 +2,8 @@
 This repository is a proof-of-concept of SRv6 Backend for flannel, not for production use.
 We modified a part of this code to publish, so there is no guarantee of working and also support.
 
-For more implementation details, please refer to our blog.
+For more implementation details, please refer to [our blog](https://developers.cyberagent.co.jp/blog/archives/25394/).
+This work was conducted as an internship of [@CyberAgent](https://github.com/CyberAgent).
 
 ## How to use
 - Build an image and push to a docker registry.
